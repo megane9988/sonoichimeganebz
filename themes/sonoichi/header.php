@@ -23,7 +23,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<div id="wrapper" class="mod-pageWrapper">
-    <header class="mod-pageHeader noVisual" role="banner">
+    <header class="mod-pageHeader" role="banner">
       <div class="row">
         <div class="mod-pageHeader-inner large-3 columns">
 					<h1 class="mod-pageHeader-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

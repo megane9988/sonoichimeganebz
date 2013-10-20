@@ -7,7 +7,7 @@
 				<div class="page-title-wrapper row">
 					<div class="entry-info large-12 columns">
 							<h1 class="entry-title"><?php the_title(); ?></h1>
-							<h3><?php the_excerpt(); ?></h3>	
+							<h3><?php	if( has_excerpt() ){the_excerpt();}	?></h3>	
 					</div> 
 				</div>
 			</div>						
