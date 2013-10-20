@@ -1,0 +1,21 @@
+.tablenav .tablenav-pages {
+	text-align: center;
+	float: none;
+}
+
+div.attachment {
+	width: 50%;
+	float: left;
+	margin-bottom: 10px;
+  overflow: hidden;
+}
+
+div.attachment  img.attachment-thumbnail {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.attachment .details {
+  overflow: hidden;
+}
